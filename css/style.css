@@ -1,0 +1,304 @@
+@import"https://pro.fontawesome.com/releases/v5.10.0/css/all.css";
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background-color:rgb(177, 224, 231);
+}
+
+.container{
+  text-align: center;
+  width: 90%;
+  max-width: 1024px;
+  margin: auto;
+
+}
+
+#container-personal{
+    background-color:cadetblue;
+}
+
+#container-laboral{
+    background-color:cornflowerblue;
+}
+
+#container-info{
+    background-color:cadetblue;
+}
+
+#container-familiar{
+    background-color:aquamarine;
+}
+
+#container-estudio{
+    background-color: azure;
+}
+
+.titulo{
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:azure;
+    
+}
+
+.imagen img{
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 75px;
+    margin-left: 75%;
+ 
+}
+
+img {
+    transition: all 0.9s ease;
+    border: 10px;
+}
+
+img:hover {
+    transition: all 0.6s ease;
+    filter: brightness(50%);
+}
+
+.social {
+    margin-left: 85%;
+    padding: 40px 0;
+    margin-bottom: 40px;
+    border-top: 1px solid #cbcbcb;
+    
+}
+
+.social i{
+   padding: 0 10px;
+   cursor: pointer; 
+}
+
+.social i:hover{
+    background-color: aqua;
+    
+}
+
+
+.menu{
+    background-color:burlywood;
+    display: inline-flex;
+    margin-top: 0%;
+    margin-left: 15%;
+    border-radius: 5px;
+
+}
+
+#menu-info{
+    background-color:aquamarine;
+    margin-left: 0%;
+   
+}
+
+#menu-laboral{
+    background-color: hsl(0, 0%, 80%);
+    margin: 20px ;
+    margin-left: 10%; 
+}
+
+#menu-personal{
+    margin-bottom: 15px;
+    margin-left: 20px;
+    background-color: chartreuse;
+}
+
+#menu-familiar{
+    margin-bottom: 10px;
+    background-color: forestgreen;
+    margin-left: 14px;
+}
+
+#menu-estudio{
+    margin-bottom: 25px;
+    background-color: cyan;
+    margin-left: 15px;
+}
+
+ .menu a{
+    text-decoration: none;
+    color:blueviolet;
+    padding: 0 20px;
+    
+}
+
+.nav-items {
+    list-style-type: none;
+    display:flex
+}
+
+.btn1{
+    
+    padding: 30px;
+    width: 150px;
+    
+}
+
+.btn1:hover {
+    color:chocolate
+}
+
+.btn1:active{
+    color:blanchedalmond;
+    background-color: #cbcbcb;
+}
+
+.btn2{
+    
+    padding: 30px;
+    display: block;
+    width: 150px;
+   
+}
+
+.btn2:hover {
+    opacity: calc(30%);
+}
+
+.btn2:active{
+    color:chartreuse;
+    background-color:chocolate;
+}
+
+.btn3{
+    
+    padding: 30px;
+    display: block;
+    width: 150px;
+    
+}
+
+.btn3:hover {
+    color:white;
+    background-color: orangered;
+}
+
+.btn3:active{
+    color:firebrick;
+    background-color:darkmagenta;
+}
+
+.btn4{
+    padding: 30px;
+    display: block;
+    width: 150px;
+    
+}
+
+.btn4:hover{
+    background: yellowgreen;
+    color: aliceblue;
+}
+
+.btn4:active {
+    color: red;
+    background-color: fuchsia;
+}
+
+
+
+.btn5{
+    
+    padding: 30px;
+    display: block;
+    width: 150px;
+
+}
+
+.btn5:hover{
+    opacity:20%;
+    color:white;
+}
+
+.btn5:active{
+    color:chartreuse;
+    background-color:green;
+}
+
+
+.laboral {
+    margin: 20px 15px;
+    border-radius: none;
+}
+
+.familiar {
+    margin: 20px 15px;
+    border-radius: none;
+    background-color: cadetblue;
+}
+
+.article{
+    margin-left: 20%;
+}
+
+.article{
+    
+    margin-top: 5%;
+    padding-top: 0%;
+}
+
+#article-info p{
+    color:beige;
+    padding-top: 0%;
+    margin-right: 20px;
+    text-align: justify;
+    margin-top: 0%;
+}
+
+ #article-laboral p{
+    color: crimson;
+    padding-top: 0%;
+    text-align: justify;
+}
+
+#article-personal p{
+    color:aliceblue;
+    padding-top: 0%;
+    text-align: justify;
+}
+
+#article-familiar p{
+    color:darkblue;
+    text-align: justify;
+}
+
+#article-estudio p{
+    color: deeppink;
+    text-align: justify;
+}
+
+.download{
+  
+   margin-left: 40%;
+   list-style: none;
+   padding-bottom: 20px;
+
+}
+
+.download li{
+    color: aqua;
+    background-color:burlywood;
+    margin-right: 50%;
+    margin-left: 0%;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
+.download :hover{
+    background-color: blueviolet;
+    color: #cbcbcb;
+}
+
+
+
+
+
