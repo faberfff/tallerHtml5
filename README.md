@@ -34,3 +34,11 @@ Introducción a Html5, primer taller creación de hoja de vida, sin utilizar Css
 
 ## Por Faber Fernández :building_construction:
 
+# taller JavaScript
+Para este taller usted deberá darle continuidad en el repositorio del taller HTML
+y CSS3.
+
+##Imagen de algunos cambios en apariencia
+![image](https://user-images.githubusercontent.com/76182994/208776080-2d70019b-2e9b-4623-bc18-b99f441f1cf7.png)
+##Se realizaron cambios en los archivos html, css y js
+
