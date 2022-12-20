@@ -26,3 +26,11 @@ Introducción a Html5, primer taller creación de hoja de vida, sin utilizar Css
 
 ## Por Faber Fernández :building_construction:
 
+## La continuación del taller css, donde se aplican los estilos requeridos
+
+![image](https://user-images.githubusercontent.com/76182994/207672297-c059f351-1465-41ee-aca1-a168d0ed0fe8.png)
+
+![image](https://user-images.githubusercontent.com/76182994/207672937-d27128af-0ecc-412f-b49e-17dc9f47d7c2.png)
+
+## Por Faber Fernández :building_construction:
+
