@@ -41,4 +41,5 @@ y CSS3.
 ##Imagen de algunos cambios en apariencia
 ![image](https://user-images.githubusercontent.com/76182994/208776080-2d70019b-2e9b-4623-bc18-b99f441f1cf7.png)
 ##Se realizaron cambios en los archivos html, css y js
+## Por Faber Fernández :building_construction:
 
