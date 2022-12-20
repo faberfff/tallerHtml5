@@ -6,10 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>curriculum vitae: Faber Fernández Fernández</title>
     <link rel="stylesheet" href="/css/style.css" type="text/css"/>
+    <script src="/Js/temas.js"></script>
 </head>
-<body>
+<body id="theme">
 
     <div class="container" id="container-familiar">
+
+        <div class="btn-tema">
+
+            <select id="selection" name="fondo" onchange="cambioFondo(this)">
+               <option value="DarkSalmon">Salmon</option>
+               <option value="Cyan">Cyan</option>
+               <option value="Tomato">Tomato</option>
+            </select>
+
+      </div>
+
     <header> 
 
         <div class="social">
@@ -31,25 +43,36 @@
  </header> 
 
  <article class="article" id="article-familiar">
-    <p>Referencias Familiares:</p>
-    <p>Paula Andrea Mejía Mejía</p>
-    <p>Abogada servicios jurídicos</p>
-    <p>Celular: 3144565295</p>
-    <aricle>
+    
+    <div id="ocultable1">
+        <p>Referencias Familiares:</p>
+        <p>Paula Andrea Mejía Mejía</p>
+        <p>Abogada servicios jurídicos</p>
+        <p>Celular: 3144565295</p>
+    </div>
+    <button class="btnMostrar" onclick="return mostrarOcultar('ocultable1')" type="button">Mostrar/Ocultar1</button> 
+
+    <div id="ocultable2">
         <p>Diana María Mejía Mejía</p>
         <p>Licenciada pedagogica</p>
         <p>Celular: 3124567269</p>
-    </aricle>
-    <aricle>
+    </div>
+    <button class="btnMostrar" onclick="return mostrarOcultar('ocultable2')" type="button">Mostrar/Ocultar2</button> 
+
+    <div id="ocultable3">
         <p>Liliana María Fernández Fernández</p>
         <p>Auxiliar contable</p>
         <p>Celular: 3214567690</p>
-    </aricle>
-    <aricle>
+    </div>
+    <button class="btnMostrar" onclick="return mostrarOcultar('ocultable3')" type="button">Mostrar/Ocultar3</button> 
+
+    <div id="ocultable4">
         <p>Jhonnier Fernández Fernández</p>
         <p>Analista de ventas</p>
         <p>Celular: 3224567890</p>
-    </aricle>
+    </div>
+    <button class="btnMostrar" onclick="return mostrarOcultar('ocultable4')" type="button">Mostrar/Ocultar4</button> 
+    
  </article>
 
  <div class="download">
@@ -57,5 +80,6 @@
  </div>
 
 </div>
+<script>mostrarOcultar ()</script>
 </body>
 </html>

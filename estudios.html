@@ -6,10 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>curriculum vitae: Faber Fernández Fernández</title>
     <link rel="stylesheet" href="/css/style.css" type="text/css"/>
+    <script src="/Js/temas.js"></script>  
+    
 </head>
-<body>
+<body id="theme" >
 
     <div class="container" id="container-estudio">
+
+        <div class="btn-tema">
+
+         <select id="selection" name="fondo" onchange="cambioFondo(this)">
+            <option value="DarkSalmon">Salmon</option>
+            <option value="Cyan">Cyan</option>
+            <option value="Tomato">Tomato</option>
+         </select>
+            
+           
+      </div>
+
     <header> 
         <div class="social">
             <i class="fab fa-whatsapp"></i>
@@ -28,29 +42,48 @@
  </header>
  
  <article class="article" id="article-estudio">
-    <p>Formación Académica:</p>
-    <p>Tecnología en desarrollo de software.</p>
-    <p>Medellin(Ant)</p>
-    <p>Institución Uniersitaria Digital</p>
+
+     <div id="ocultable1">
+      
+        <p>Formación Académica:</p>
+        <p>Tecnología en desarrollo de software.</p>
+        <p>Medellin(Ant)</p>
+        <p>Institución Uniersitaria Digital</p>
+        
+     </div>
+     <button class="btnMostrar" onclick="return mostrarOcultar('ocultable1')" type="button">Mostrar/Ocultar1</button>
+     
+     
+     
+       
     
-    <aricle>
+     <div id="ocultable2">
+        
         <p>Introducción a Machine Learning</p>
         <p>Platzi</p>
         <p>16 Enero del 2020</p>
-    </aricle>
-    <aricle>
+     </div>
+     <button class="btnMostrar" onclick="return mostrarOcultar('ocultable2')" type="button">Mostrar/Ocultar2</button> 
+
+     <div id="ocultable3">
+        
         <p>Ingeniería de datos Python</p>
         <p>Platzi</p>
         <p>16 Enero del 2020</p>
-    </aricle>
+     </div>
+     <button class="btnMostrar" onclick="return mostrarOcultar('ocultable3')" type="button">Mostrar/Ocultar3</button> 
 
-    <aricle>
+     <div id="ocultable4">
+        
         <p>Electrónica y Mantenimiento de Computadores</p>
         <p>Centro de Estudios en Sistemas</p>
         <p>24 de junio de 2011 Técnica</p>
-    </aricle>
-    
+     </div>
+     <button class="btnMostrar" onclick="return mostrarOcultar('ocultable4')" type="button">Mostrar/Ocultar4</button> 
+     
+        
  </article>
+
 
  <div class="download">
     <li><a href="/hojaVida/HVFaberFernandez2022.pdf" target="_blank" download>Download</a></li>
@@ -58,6 +91,6 @@
 
      
 </div> 
-
+<script>mostrarOcultar ()</script>
 </body>
 </html>

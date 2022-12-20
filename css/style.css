@@ -18,6 +18,14 @@ body {
 
 }
 
+.btn-tema #selection{
+    margin-top: 10px;
+    padding: 5px;
+    background-color: brown;
+    border-radius: 15px;
+
+}
+
 #container-personal{
     background-color:cadetblue;
 }
@@ -135,6 +143,21 @@ img:hover {
     display:flex
 }
 
+.btnMostrar{
+    padding: 10px;
+    background-color: aqua;
+    color: brown;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.btnMostrar:hover{
+    opacity: 75%;
+    background-color: cadetblue;
+}
+
 .btn1{
     
     padding: 30px;
@@ -243,6 +266,7 @@ img:hover {
     
     margin-top: 5%;
     padding-top: 0%;
+
 }
 
 #article-info p{
@@ -275,6 +299,55 @@ img:hover {
     text-align: justify;
 }
 
+
+.acordeon{
+    background-color: azure;
+    color: green;
+    cursor: pointer;
+    padding: 20px;
+    width: 99%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+}
+
+.active, .acordeon:hover{
+    background-color: burlywood;
+}
+
+.seccion{
+    padding: 0px 20px;
+    display: none;
+    background-color: cornflowerblue;
+    overflow: hidden;
+}
+
+section p{
+    overflow: hidden;
+    max-height: 0;
+    text-align: justify;
+    background-color:burlywood;
+    margin-right: 20px;
+    transition: all .2s ease-in-out;
+    
+}
+
+section a{
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    padding: 10px;
+    background-color: cornflowerblue;
+    border-bottom: 2px solid gray;
+    margin-right: 20px;
+}
+
+section:target p{
+    max-height: 120px;
+    padding: 10px;
+}
+
 .download{
   
    margin-left: 40%;
@@ -296,6 +369,18 @@ img:hover {
 .download :hover{
     background-color: blueviolet;
     color: #cbcbcb;
+}
+
+#estilo1{
+    background-color: salmon;
+}
+
+#estilo2{
+    background-color:cyan;
+}
+
+#estilo3{
+    background-color: tomato;
 }
 
 

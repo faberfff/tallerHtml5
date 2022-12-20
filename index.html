@@ -5,12 +5,23 @@
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <title>curriculum vitae: Faber Fernández Fernández</title>
          <link rel="stylesheet" href="/css/style.css" type="text/css"/>
+         <script src="/Js/temas.js"></script>
          
      </head>
 
-     <body> 
+     <body id="theme"> 
       
       <div class="container" id="container-info">
+
+         <div class="btn-tema">
+
+               <select id="selection" name="fondo" onchange="cambioFondo(this)">
+                  <option value="DarkSalmon">Salmon</option>
+                  <option value="Cyan">Cyan</option>
+                  <option value="Tomato">Tomato</option>
+               </select>
+   
+         </div>
 
     <header> 
 
@@ -41,52 +52,46 @@
   </header> 
 
             <article class="article" id="article-info" >
+              <div id="ocultable1">
                <p>Datos Personales</p>
                <p>Faber Fernández Fernández</p>
-               <aricle class="article">
-                  <p>Cédula:</p>
+              </div>
+              <button class="btnMostrar" onclick="return mostrarOcultar('ocultable1')" type="button">Mostrar/Ocultar1</button>
+              
+              <div id="ocultable2">
+               <p>Cédula:</p>
                <p>98.613.673</p>
-               </aricle>
-               <aricle class="article">
-                  <p>Fecha de nacimiento:</p>
+               <p>Fecha de nacimiento:</p>
                <p>27 de diciembre de 1882</p>
-               </aricle>
-               <aricle class="article">
-                  <p>Números de contacto:</p>
+               <p>Números de contacto:</p>
                <p>3103961688</p>
-               </aricle>
-               <aricle class="article">
-                  <p>Email:</p>
-               <p>faverfff@gmail.com</p>
-               </aricle>
-               <aricle class="article">
-                  <p>Dirección:</p>
-               <p>Carrera 50 # 43 - 31 Urbanización los Nogales
-                  Amagá (Antioquia)</p>
-               </aricle>
-               
-               <p>Tecnólogo en desarrollo de software de la IUDIGITAL de Antioquia, capaz de desarrollar
-                  soluciones para los sistemas de información  y el desarrollo de software, con habilidades
-                  para trabajar en equipo, discernimiento en sistemas operativos que facilitan  él desarrollo
-                  de aplicaciones de software, bases de datos relacionales y tecnologías de la
-                  información.</p>
+              </div>
+              <button class="btnMostrar" onclick="return mostrarOcultar('ocultable2')" type="button">Mostrar/Ocultar2</button>
 
-                          
+           <div id="ocultable3">
+            <p>Email:</p>
+            <p>faverfff@gmail.com</p>
+            <p>Dirección:</p>
+            <p>Carrera 50 # 43 - 31 Urbanización los Nogales
+               Amagá (Antioquia)</p>
+         </div>
+         <button class="btnMostrar" onclick="return mostrarOcultar('ocultable3')" type="button">Mostrar/Ocultar3</button>
+         
+           <div id="ocultable4">
+            <p>Tecnólogo en desarrollo de software de la IUDIGITAL de Antioquia, capaz de desarrollar
+               soluciones para los sistemas de información  y el desarrollo de software, con habilidades
+               para trabajar en equipo, discernimiento en sistemas operativos que facilitan  él desarrollo
+               de aplicaciones de software, bases de datos relacionales y tecnologías de la
+               información.</p>
+         </div>
+         <button class="btnMostrar" onclick="return mostrarOcultar('ocultable4')" type="button">Mostrar/Ocultar4</button>            
             </article>
          
             <div class="download">
                <li><a href="/hojaVida/HVFaberFernandez2022.pdf" target="_blank" download>Download</a></li>
             </div>
 
-    
-         </div>        
-     </body>
-
-     
-
-     <footer>
-
-     </footer>
-
-
+         </div> 
+         <script>mostrarOcultar ()</script>       
+ </body>
 </html>
